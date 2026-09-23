@@ -1,0 +1,7 @@
+case_id,split,label,birads,cc_roi_path,mlo_roi_path,cc_path,mlo_path
+synthetic_001,train,0,3,data/images/synthetic_001_cc.png,data/images/synthetic_001_mlo.png,,
+synthetic_002,train,1,5,data/images/synthetic_002_cc.png,data/images/synthetic_002_mlo.png,,
+synthetic_003,val,0,4A,data/images/synthetic_003_cc.png,data/images/synthetic_003_mlo.png,,
+synthetic_004,val,1,4C,data/images/synthetic_004_cc.png,data/images/synthetic_004_mlo.png,,
+synthetic_005,test,0,4A,data/images/synthetic_005_cc.png,data/images/synthetic_005_mlo.png,,
+synthetic_006,test,1,4B,data/images/synthetic_006_cc.png,data/images/synthetic_006_mlo.png,,

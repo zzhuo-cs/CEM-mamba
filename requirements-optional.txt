@@ -1,0 +1,2 @@
+# Optional Mammo-CLIP comparison backbone only.
+efficientnet-pytorch==0.7.1

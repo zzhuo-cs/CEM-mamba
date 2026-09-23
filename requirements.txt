@@ -1,0 +1,13 @@
+# Observed application dependencies in the server mambavision environment.
+# Install matching CUDA PyTorch/torchvision first, then mamba-ssm separately.
+timm==1.0.24
+numpy==2.0.2
+pandas==2.3.3
+scikit-learn==1.6.1
+matplotlib==3.9.4
+seaborn==0.13.2
+Pillow==11.3.0
+einops==0.8.1
+safetensors==0.7.0
+tensorboard>=2.10
+requests>=2.32

@@ -1,0 +1,21 @@
+{
+  "model_name": "mamba_vision_S",
+  "fusion_mode": "gated",
+  "multitask_mode": "simple_regression",
+  "view_source": "roi",
+  "augment_policy": "strong",
+  "dropout": 0.5,
+  "view_dropout_prob": 0.15,
+  "epochs": 25,
+  "batch_size": 16,
+  "lr": 5e-05,
+  "weight_decay": 1e-05,
+  "optimizer": "adamw",
+  "image_size": 224,
+  "num_workers": 4,
+  "weight_bm": 1.0,
+  "weight_birads": 0.1,
+  "birads_warmup_epochs": 5,
+  "early_stop_patience": 8,
+  "use_class_weights": true
+}
