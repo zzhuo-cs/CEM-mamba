@@ -19,16 +19,6 @@ flowchart LR
     F --> R[Auxiliary BI-RADS risk regression]
 ```
 
-The manuscript reports 1,899 patients: 1,362 development, 344 internal test, 97 external test, and 96 temporal validation cases.
-
-| Cohort | Manuscript AUC | BI-RADS 4A biopsy deferral at 0.05 |
-| --- | ---: | ---: |
-| Internal test | 0.968 | 27/45 (60.0%) |
-| Multicenter external | 0.936 | 4/8 (50.0%) |
-| Temporal validation | 0.903 | 10/18 (55.6%) |
-
-These are manuscript-reported values, not results generated or independently validated by this release. The manuscript derives the 0.05 operating point in the internal 4A subset and applies it unchanged externally and temporally. The supplied generic threshold script selects validation-based diagnostic thresholds; it does **not** implement that entire 4A biopsy-deferral analysis. Research use only; the threshold is not a clinical recommendation.
-
 ## Repository contents
 
 | File | Purpose |
