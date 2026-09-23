@@ -2,8 +2,6 @@
 
 Dual-view multi-task learning for contrast-enhanced mammography (CEM), with benign/malignant classification and auxiliary BI-RADS risk prediction.
 
-This repository packages the experimental code associated with **“A Dual-view Multi-task Deep Learning Framework for BI-RADS 4A Biopsy Reduction on Contrast-Enhanced Mammography”** (Zihan Zhao, Zhuo Zhang, et al.; manuscript dated September 23, 2026). Publication details and a DOI have not been supplied.
-
 **Release status:** this is a cleaned research-code snapshot, not a verified reproduction of the manuscript results. The inspected server import chain uses an identity-function test stub in place of selective scan. This package makes that historical behavior explicit and uses the official scan implementation by default. Switching backends changes the computation. Read [reproducibility notes](docs/REPRODUCIBILITY.md) before using existing checkpoints or interpreting results.
 
 [中文说明](README.zh-CN.md)
